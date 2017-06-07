@@ -4,6 +4,8 @@ This macho parser is intentionally incomplete.  If you have any feature request,
 
 In addition to parse common meta data of Mach-O, I used it mainly to retrieve "purposely hidden" information within the MachO binary.  See the following examples to learn more.
 
+NOTE: little-endian
+
 # APIs
 ## get_header()
 return a namedtuple regarding to a Mach-O header for either 32-bit and 64-bit
